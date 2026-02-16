@@ -16,5 +16,8 @@ jobs:
         with:
           python-version: "3.10"
 
+      - name: Display files
+        run: ls
+
       - name: Run Python file
         run: python agile.py
